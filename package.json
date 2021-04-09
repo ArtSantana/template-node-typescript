@@ -2,7 +2,7 @@
   "author": "Arthur Santana",
   "name": "template-node",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/server.js",
   "license": "MIT",
   "scripts": {
     "dev": "nodemon --ignore node_modules/ --ignore tests/ --watch src -e ts,tsx --exec ts-node src/server.ts",
