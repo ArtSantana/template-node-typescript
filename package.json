@@ -36,7 +36,10 @@
       "<rootDir>"
     ],
     "testMatch": [
-      "**/tests/**/*.+(ts|js)"
+      "**/?(*.)+(spec|test).+(ts|tsx|js)"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>/node_modules/"
     ],
     "transform": {
       "^.+\\.(ts|tsx)$": "ts-jest"
